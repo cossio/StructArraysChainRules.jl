@@ -16,3 +16,9 @@ end
 
 You will get an error.
 Now load this package and run that again.
+
+
+## Related
+
+See also: https://github.com/cossio/ZygoteStructArrays.jl.
+StructArraysChainRules should replace that eventually.
