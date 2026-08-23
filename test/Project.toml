@@ -5,3 +5,8 @@ StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 StructArraysChainRules = "7fa0553c-2e8f-409b-8dbd-c55671339bd3"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+[compat]
+SafeTestsets = "0.1.0"
+StructArrays = "0.7.3"
+Zygote = "0.7.12"
