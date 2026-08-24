@@ -6,15 +6,11 @@ jobs:
   test:
     name: Julia ${{ matrix.version }} - ${{ matrix.os }} - ${{ matrix.arch }}
     runs-on: ${{ matrix.os }}
-    # Nightly tracks an unreleased Julia compiler; regressions there should not
-    # block PRs, only warn.
-    continue-on-error: ${{ matrix.version == 'nightly' }}
     strategy:
       fail-fast: false
       matrix:
         version:
           - '1'
-          - 'nightly'
         os:
           - ubuntu-latest
         arch:
